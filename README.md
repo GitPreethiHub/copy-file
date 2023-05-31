@@ -22,10 +22,11 @@ End the program.
 Developed by: Preethi M
 Register number: 212222100037
 
-with open('a1.txt','r')as firstfile:
-    with open('a2.txt','a')as secondfile:
-        for line in firstfile:
-            secondfile.write(line)
+with open('text1.txt','r')as fp:
+     msg1=fp.read()
+with open('copytext.txt','a')as fp1:
+     fp1.write(mgs1)
+        
 ```
 ### OUTPUT:
 
